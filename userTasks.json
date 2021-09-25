@@ -1,0 +1,27 @@
+{
+    "username":"CapBolt",
+    "tasks":[
+        {
+            "title":"Programming",
+            "subTitle":"",
+            "hourBegin":0,
+            "minuteBegin":0,
+            "hourEnd":1,
+            "minuteEnd":0,
+            "completed":false,
+            "image":"",
+            "color":"#7C83FD"
+          },
+          {
+            "title":"Sleep",
+            "subTitle":"",
+            "hourBegin":5,
+            "minuteBegin":0,
+            "hourEnd":7,
+            "minuteEnd":30,
+            "completed":false,
+            "image":"",
+            "color":"#7C83FD"
+          }
+    ]
+}
