@@ -17,7 +17,7 @@ export default function AddTaskTimelinePage({ navigation, route }) {
   const [timeEndHour, onChangetimeEndHour] = React.useState(0);
   const [timeEndMin, onChangetimeEndMin] = React.useState(0);
   const [currentColorChosen, onChangecurrentColorChosen] = React.useState(7);
-  const allColors= ['#A1a','#5aa','#123','#881','#56a']
+  const allColors= ['#A1a','#5aa','#468','#881','#56a']
 
   var task =  {
     title:titleText,

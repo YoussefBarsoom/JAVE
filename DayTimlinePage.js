@@ -35,7 +35,7 @@ import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import TextBoxCust from './component/TextBoxCust'
-import {getAllData} from './DataTaskQuery'     
+import {getAllData,addNewData} from './DataTaskQuery'     
 var width = Dimensions.get('window').width; 
 
  
@@ -111,6 +111,7 @@ export default function DayTimelinePage({navigation,route}) {
     if (route.params?.taskObject) {
       //setTodos( arr => [...arr,route.params?.taskObject ]);
       insertionSort(arr,route.params?.taskObject)
+      addNewData(route.params?.taskObject);
       console.log("RESETTING")
        }
   //  setTodos([toDoSlot]);
